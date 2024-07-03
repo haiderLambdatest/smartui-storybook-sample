@@ -75,8 +75,7 @@ jobs:
     - name: Execute storybook build
       run: |
         ls -la
-        node ./ss/index.js --version
-        node ./ss/index.js storybook ./story-dashlane --config .smartui.json --env stage
+        npx smartui --version
+        npx smartui storybook ./story-dashlane --config .smartui.json --env stage
 
 
-        

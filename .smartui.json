@@ -15,7 +15,7 @@
         1028
       ]
     ],
-    "waitForTimeout": 4000,
+    "waitForTimeout": 0,
     "include": [
   ],
     "exclude": [],
