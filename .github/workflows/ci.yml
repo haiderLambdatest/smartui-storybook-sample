@@ -77,3 +77,6 @@ jobs:
         ls -la
         node ./ss/index.js --version
         node ./ss/index.js storybook ./story-dashlane --config .smartui.json --env stage
+
+
+        
