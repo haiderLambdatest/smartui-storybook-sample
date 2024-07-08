@@ -2,17 +2,14 @@
   "storybook": {
     "browsers": [
       "chrome",
-      "firefox",
-      "safari",
-      "edge"
+      "safari"
     ],
     "viewports": [
       [
-        1920,
-        1080
+       375
       ],
       [
-        1028
+        1280
       ]
     ],
     "waitForTimeout": 0,

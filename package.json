@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@lambdatest/selenium-driver": "^1.0.6",
-    "@lambdatest/smartui-storybook": "file:../smartui-storybook",
+    "@lambdatest/smartui-storybook": "^1.1.18",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
