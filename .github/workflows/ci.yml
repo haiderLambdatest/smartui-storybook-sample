@@ -38,13 +38,13 @@ jobs:
       run: |
         export PROJECT_TOKEN=33244476#a351219a-7ef6-4c93-b96e-68fda9203fbf#Telus-storybook-githubpr-1
         smartui --version
-        smartui storybook ./story-telus --config .smartui.json --env stage 
+        smartui storybook ./story-dashlane --config .smartui.json --env stage 
         
     - name: Execute storybook build3
       run: |
         export PROJECT_TOKEN=33244476#91c4b436-b338-45a6-a8b4-f4b068d57495#Telus-storybook-githubpr-2
         smartui --version
-        smartui storybook ./story-cnbc --config .smartui.json --env stage 
+        smartui storybook ./story-dashlane --config .smartui.json --env stage 
 
 
 
