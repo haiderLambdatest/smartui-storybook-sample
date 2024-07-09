@@ -46,11 +46,6 @@ jobs:
         smartui --version
         smartui storybook ./story-telus --config .smartui.json --env stage 
 
-   - name: Execute storybook build2
-      run: |
-        export PROJECT_TOKEN=33244476#e2fbb54c-dcab-4e85-8f21-6761e319da32#Telus-storybook-githubpr
-        smartui --version
-        smartui storybook ./story-telus --config .smartui.json --env stage 
        
 
 
