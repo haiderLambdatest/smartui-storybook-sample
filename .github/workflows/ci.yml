@@ -4,9 +4,6 @@ on:
     branches:
       - master
 
-env:
-  PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
-
 jobs:
   smartui-gihub-action:
     name: Execute Storybook build
@@ -31,11 +28,27 @@ jobs:
         npm install
         npm install @lambdatest/smartui-storybook -g
 
-    - name: Create storybook static build
-      run: npm run build-storybook
-
-    - name: Execute storybook build
+    - name: Execute storybook build1
       run: |
+        export PROJECT_TOKEN=33244476#e2fbb54c-dcab-4e85-8f21-6761e319da32#Telus-storybook-githubpr
         smartui --version
-        smartui config create .smartui.json
-        smartui storybook ./storybook-static --config .smartui.json
+        smartui storybook ./story-dashlane --config .smartui.json --env stage --force-rebuild
+        
+    - name: Execute storybook build2
+      run: |
+        export PROJECT_TOKEN=33244476#e2fbb54c-dcab-4e85-8f21-6761e319da32#Telus-storybook-githubpr
+        smartui --version
+        smartui storybook ./story-cnbc --config .smartui.json --env stage --force-rebuild
+
+    - name: Execute storybook build3
+      run: |
+        export PROJECT_TOKEN=33244476#e2fbb54c-dcab-4e85-8f21-6761e319da32#Telus-storybook-githubpr
+        smartui --version
+        smartui storybook ./story-telus --config .smartui.json --env stage --force-rebuild
+
+
+       
+
+
+
+
