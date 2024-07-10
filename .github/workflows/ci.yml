@@ -30,7 +30,7 @@ jobs:
 
     - name: Execute storybook build1
       run: |
-        eexport PROJECT_TOKEN=1432185#56f90a1c-87b9-4c41-a19c-f1c18063bc3c#telus-SB
+        export PROJECT_TOKEN=1432185#56f90a1c-87b9-4c41-a19c-f1c18063bc3c#telus-SB
         smartui --version
         smartui storybook ./story-dashlane --config .smartui.json
         
