@@ -40,7 +40,11 @@ jobs:
         smartui --version
         smartui storybook ./story-dashlane --config .smartui.json --env stage --force-rebuild
 
-
+    - name: Execute storybook build3
+      run: |
+        export PROJECT_TOKEN=33244476#8edaea40-ba58-48a9-a2a4-1117dacc33f2#Telus-storybook-githubpr-3
+        smartui --version
+        smartui storybook ./story-dashlane --config .smartui.json --env stage --force-rebuild
 
 
        
