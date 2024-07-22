@@ -36,7 +36,7 @@ jobs:
         
     - name: Execute storybook build2
       run: |
-        export PROJECT_TOKEN=33244476#8aaa8c73-75f1-40b6-b696-c91e8e9d6f6c#Storybook-Test-1
+        export PROJECT_TOKEN=33244476#b9d9ab08-4fd1-4f90-b4cf-076666dbe541#Storybook-Test-2
         smartui --version
         smartui storybook ./story-dashlane --config .smartui.json --env stage
 
