@@ -30,15 +30,11 @@ jobs:
 
     - name: Execute storybook build1
       run: |
-        export PROJECT_TOKEN=33244476#49e5c505-190c-479d-8fa7-cb966b0462bd#storybook-gethealthie-1
+        export PROJECT_TOKEN=1639932#2f8ee347-a4c4-4beb-b6ee-6e88ad939276#testSB-1
         smartui --version
-        smartui storybook ./story-telus --config .smartui.json --env stage
+        smartui storybook ./story-telus --config .smartui.json 
         
-    - name: Execute storybook build2
-      run: |
-        export PROJECT_TOKEN=33244476#1964e05f-0dcb-4b5d-bebf-4e719df64339#storybook-gethealthie-2
-        smartui --version
-        smartui storybook ./story-telus --config .smartui.json --env stage
+
 
 
 
