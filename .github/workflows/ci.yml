@@ -32,7 +32,7 @@ jobs:
       run: |
         export PROJECT_TOKEN=33244476#fb07ccf3-28e2-4e0d-b78a-b790ff621d8f#gethealthieGitCheck
         smartui --version
-        smartui storybook ./story-dashlane --config .smartui.json --env stage
+        smartui storybook ./story-telus --config .smartui.json --env stage
         
 
 
