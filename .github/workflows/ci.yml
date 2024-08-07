@@ -30,9 +30,9 @@ jobs:
 
     - name: Execute storybook build1
       run: |
-        export PROJECT_TOKEN=33244476#fb07ccf3-28e2-4e0d-b78a-b790ff621d8f#gethealthieGitCheck
+        export PROJECT_TOKEN=1639932#e50dda1b-bbf7-4dd9-9063-45392ec1abd9#gethealthieSB
         smartui --version
-        smartui storybook ./story-telus --config .smartui.json --env stage force--build
+        smartui storybook ./story-dashlane --config .smartui.json force--build
 
         
         
