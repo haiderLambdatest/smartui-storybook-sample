@@ -1,7 +1,8 @@
 {
   "storybook": {
     "browsers": [
-      "chrome"
+      "chrome",
+      "edge"
     ],
     "viewports": [
       [
