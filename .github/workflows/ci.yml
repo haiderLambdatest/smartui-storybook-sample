@@ -30,7 +30,7 @@ jobs:
 
     - name: Execute storybook GDPR_Build1
       run: |
-        export PROJECT_TOKEN=33483724#37213399-6d6c-43ea-ae7a-817b4e19c53e#Final_Testing_EU-GDPR-STORYBOOK_PR_Check
+        export PROJECT_TOKEN=33473561#9eae6615-068f-4e9f-b1af-8cfcda55408f#EU-GDPR-GIT-PR-CHECK-STORYBOOK
         smartui --version
         smartui storybook ./story-dashlane --config .smartui.json --env stage --force-rebuild
 
